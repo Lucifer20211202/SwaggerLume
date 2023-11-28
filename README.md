@@ -16,7 +16,7 @@ Installation
 
  Lumen      | Swagger UI| OpenAPI Spec compatibility | L5-Swagger
 :-----------|:----------|:---------------------------|:----------
- 10.0       | 3         | 2.0, 3.0                   | ``` composer require "darkaonline/swagger-lume:10.*" ```
+ 10.0       | 3         | 2.0, 3.0                   | ``` composer require "lumen-utils/swagger-lumen:10.*" ```
 
 - Open your `bootstrap/app.php` file and:
 
