@@ -1,5 +1,7 @@
 <?php
 
+/** @var \Laravel\Lumen\Routing\Router $route */
+
 $route->get(config('swagger-lume.routes.docs'), [
     'as' => 'swagger-lume.docs',
     'middleware' => config('swagger-lume.routes.middleware.docs', []),
