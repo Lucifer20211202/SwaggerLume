@@ -1,9 +1,8 @@
 {
-  "name": "darkaonline/swagger-lume",
+  "name": "lumen-utils/swagger-lumen",
   "description": "OpenApi or Swagger integration to Lumen",
   "keywords": [
     "lumen",
-    "laravel",
     "swagger",
     "api",
     "OpenApi",
@@ -15,19 +14,19 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Darius Matulionis",
-      "email": "darius@matulionis.lt"
+      "name": "Lucifer",
+      "email": "Lucifer20211202@protonmail.com"
     }
   ],
   "require": {
-    "php": ">=7.2 || ^8.0",
-    "laravel/lumen-framework": "~6.0 || ~7.0 || ^8.0 || ^9.0 || ^10.0",
-    "zircote/swagger-php": "~2.0 || 3.*",
-    "swagger-api/swagger-ui": "^3.0 || ^4.0",
-    "symfony/yaml": "^4.0 || ^5.0 || ^6.2"
+    "php": "~8.1",
+    "laravel/lumen-framework": "^10.0",
+    "zircote/swagger-php": "~4.7.15",
+    "swagger-api/swagger-ui": "^4.0",
+    "symfony/yaml": "^6.2"
   },
   "require-dev": {
-    "phpunit/phpunit": "^10.0 || ^9.5",
+    "phpunit/phpunit": "^10.0",
     "mockery/mockery": "1.*",
     "php-coveralls/php-coveralls": "^2.0"
   },
